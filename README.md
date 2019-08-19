@@ -11,20 +11,20 @@ write test cases for the application, no need to write out all similar type case
 specify what you would do first to get an idea of how buggy the application might be
 
 Answer:
-As stated the product would support only basic text editor functions (create, read, update, and delete, no font selection and so on), combined with sharing across devices. I would clarify with the team if this accurate. Can text be bold or italics? Is any kind of undo part of any feature? Is there any kind of versioning? It doesn't have to be Git, but users will become extremely frustrated if everything they have entered in a note is wiped out by single keystroke. Can I paste text? Can I copy text out? Are things other than text supported yet? What kinds of text are supported? I'm going to switch to a katakana keyboard and enter Japanese text. Does this worry anyone? What are the size limits, per note, per account? Is there a list of devices that are supported, or anything that purports to support web pages fair game? After asking some basic questions it's time to turn attention to the core of the assignment.
+
+As stated the product would support only basic text editor functions (create, read, update, and delete, no font selection and so on), combined with sharing across devices. I would clarify with the team if this accurate. Can text be bold or italics? Is any kind of undo part of any feature? Is there any kind of versioning? It doesn't have to be Git, but users will become extremely frustrated if everything they have entered in a note is wiped out by single keystroke.
+
+Can I paste text? Can I copy text out? Are things other than text supported yet? What kinds of text are supported? I'm going to switch to a katakana keyboard and enter Japanese text. Does this worry anyone? What are the size limits, per note, per account? Is there a list of devices that are supported, or anything that purports to support web pages fair game? After asking some basic questions it's time to turn attention to the core of the assignment.
 
 Editing
-Create, add text, remove text, log out and log back in to see the text as it was left.
-Repeat this accross all devices.
-Repeat this for letters in a robust number of alphabets as well as numbers and symbols. I'd start with Résumé since that's how a lot of people spell it in English, then mix in Spanish (accents) and German (umlauts), Cyrillic, and Japanese.
+
+Create, add text, remove text, log out and log back in to see the text as it was left. Repeat this across all devices. Repeat this for letters in a robust number of alphabets as well as numbers and symbols. I'd start with Résumé since that's how a lot of people spell it in English, then mix in Spanish (accents) and German (umlauts), Cyrillic, and Japanese.
 
 Sharing
-Check that text entered on one devices appears on other devices. Exhaustive testing of creating notes in every browser-like application on each device and opening on every other device and browser is well beyond the time constraints. First, I'd assemble a list of devices and browsers popular enough to warrent testing. If the 80/20 rule holds true here, we can cover 80% of perspective users with just 20% of available devices.
-Testing can be further accelerated by not exhaustively checking each against every, but check each against two others. For example, if you have identfied five browser device combinations to test, then create on 1, open on 2 and 3, then create on 2 and open on 3 and 4. Repeat until you create on number 5, then open on 1 and 2.
 
+Check that text entered on one device appears on other devices. Exhaustive testing of creating notes in every browser-like application on each device and opening on every other device and browser is well beyond the time constraints. First, I'd assemble a list of devices and browsers popular enough to warrant testing. If the 80/20 rule holds true here, we can cover 80% of perspective users with just 20% of available devices.
 
-
-
+Testing can be further accelerated by not exhaustively checking each against every, but check each against two others. For example, if you have identified five browser device combinations to test, then create on 1, open on 2 and 3, then create on 2 and open on 3 and 4. Repeat until you create on number 5, then open on 1 and 2.
 
 2 - Automation Exercise
 Expect this exercise to take no more than 1.5 hrs
