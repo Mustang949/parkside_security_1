@@ -49,5 +49,7 @@ The #hover method in c) opens the pop up, but only after waiting a short amount 
 * How to run the test suite
 
 Pull the code locally from github.
+
 In the parkside_security_1 directory run the command:
+
 bundle exec rspec --color --format doc 
